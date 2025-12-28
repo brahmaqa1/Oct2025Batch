@@ -14,7 +14,8 @@ public class CreateNewUserTc03 {
 	@Test
 	public void createNewUserTc03() throws InterruptedException
 	{	
-		// open chrome browser	
+		
+  // this  opens chrome browser
 		// create obj -WebUtilites
 		WebUtilites util = new WebUtilites();
 		WebDriver driver =   util.openBrowser("chrome");
